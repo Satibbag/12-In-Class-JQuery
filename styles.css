@@ -1,0 +1,68 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #355E3B; /* Jungle green background *//
+    color: #FAF3DD; /* Light beige text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header styling */
+header {
+    background-color: #3B5323; /* Deep jungle green */
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #A1C181; /* Light jungle green */
+    margin: 0;
+    text-shadow: 2px 2px black;
+}
+
+header h3 {
+    font-size: 1.2rem;
+    color: #F2E8CF; /* Pale jungle tan */
+    margin: 0;
+}
+
+/* Main section styling */
+main {
+    color: #3b5323;
+    padding: 20px;
+    background-color: #FAF3DD; /* Jungle canopy green */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    width: 90%;
+    text-align: center;
+}
+main p {
+    text-align: left;
+}
+
+main img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Footer styling */
+footer {
+    padding: 20px;
+    background-color: #3B5323; /* Deep jungle green */
+    width: 100%;
+    color: #FAF3DD;
+    font-size: 0.9rem;
+    font-style: italic;
+    text-align: center;
+}
+
+footer img {
+    height: 20px;
+}
